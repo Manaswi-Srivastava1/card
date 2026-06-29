@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        
+        .box1 {
+            background-color: greenyellow;
+            position: sticky;
+            top: 0px;
+/*             
+            position: absolute;
+            top: 8px; */
+            /* left: 0px; */
+        }
+
+        .box2 {
+           
+            background-color: bisque;
+            /* position: relative;
+              top: 34px;
+              left: 56px; */
+
+        }
+
+        .box3 {
+            background-color: lightblue;
+            position: fixed;
+            margin: 50%;
+            /* top: 0px;
+            left: 3px; */
+            width: 4vw;
+            height: 12vh;
+            bottom: 10px;
+        }
+        
+        .box {
+             height: 133px;
+            width: 80vw;
+            padding: 3px;
+            margin: 3px;
+            border: 3px solid black;
+            /* margin: 34px;
+            padding: 23px;
+            border: 3px solid plum; */
+            text-align: center;
+        }
+
+        .parent {
+            /* overflow: scroll; */
+            padding: 46px;
+            margin: 34px;
+            border: 3px solid purple;
+            height: 164vh;
+              perspective: 0em;
+            /* width: 86vw;
+            height: 1113px; */
+            /* bottom: 0px; */
+
+
+/* //transform,filter, or perspective properties can also make an element apper as positioned */
+            /* transform: translate(0); --border se pehle set krta h */
+            /* filter: invert(); --color change */
+            /* perspective: 0em; */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="parent">
+        <div class="box box1">hi</div>
+        <div class="box box2">hello </div>
+        <div class="box box3">hello jiii</div>
+        <div style="background-color: pink;" class="box box4">hhh</div>
+        <div style="background-color: aquamarine;" class="box box5">fghdhdfh</div>
+
+    </div>
+</body>
+
+</html>
